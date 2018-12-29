@@ -67,7 +67,7 @@
                         <include>**/*</include>
                     </includes>
                     <repositoryName>Automated-Refactoring-Tool-Utils</repositoryName>
-                    <repositoryOwner>zulffaza</repositoryOwner>
+                    <repositoryOwner>zapahlevie</repositoryOwner>
                 </configuration>
                 <executions>
                     <execution>

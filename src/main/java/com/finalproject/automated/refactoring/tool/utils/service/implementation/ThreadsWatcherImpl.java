@@ -16,7 +16,7 @@ import java.util.concurrent.Future;
 public class ThreadsWatcherImpl implements ThreadsWatcher {
 
     @Override
-    public void waitAllThreadsDone(List<Future> threads, Integer waitingTime) {
+    public void waitAllThreadsDone(List<Future> threads, Integer waitingTimes) {
         while (true) {
             Long finishedThreads = countFinishedThreads(threads);
 
@@ -24,7 +24,7 @@ public class ThreadsWatcherImpl implements ThreadsWatcher {
                 break;
             }
 
-            waitForThreads(waitingTime);
+            waitForThreads(waitingTimes);
         }
     }
 
